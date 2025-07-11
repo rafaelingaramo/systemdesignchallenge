@@ -1,6 +1,6 @@
 Desafio System Design 
 
-*** AirBnB *** 
+*AirBnB*
 
 O Desafio consiste em criar uma arquitetura escalavel para o AirBnB, o AirBnB possui três principais produtos os quais servem para dar sustentação para os anúncios do site: 
 
