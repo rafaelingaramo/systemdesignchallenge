@@ -30,3 +30,6 @@ O Desafio consiste em criar uma arquitetura escalavel para o AirBnB, o AirBnB po
     - Avaliar o imóvel
     - Abrir contestações com proprietários 
     - Chat com proprietário para discutir sobre a possível locação
+
+
+- Como estamos lidando com Usuários APP, tenha também um meio de notifica-lo, seja por push, e-mail ou SMS
