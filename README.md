@@ -7,31 +7,31 @@ System Design Challenge
 The Challenge consists of creating a scalable architecture for Airbnb. Airbnb has three main products that support the website's listings:
 
 - Back Office: A web-based tool is required for Airbnb employees to support the product. This platform allows for:
-- User Management
-- Listing Management
-- User Disputes
-- Manual Fraud Analysis
-- Reports
+    - User Management
+    - Listing Management
+    - User Disputes
+    - Manual Fraud Analysis
+    - Reports
 
 - Advertiser APP: A web-based and mobile tool is required for advertisers on the platform to manage their listings, schedules, and receive payments. This platform should allow for:
-- Listing Management
-- Listing CRUD
-- Listing Photos
-- Listing Schedule
-- Listing Proposals (Users who have proposed to rent the property)
-- Evaluate users who have rented the property
-- Dispute Management (to resolve issues reported by users)
-- Property Management Receivables, receive payments made through the platform for the advertiser
-- Chat with users to discuss potential rentals
+    - Listing Management
+        - Listing CRUD
+        - Listing Photos
+        - Listing Schedule
+        - Listing Proposals (Users who have proposed to rent the property)
+        - Evaluate users who have rented the property
+    - Dispute Management (to resolve issues reported by users)
+    - Property Management Receivables, receive payments made through the platform for the advertiser
+    - Chat with users to discuss potential rentals
 
 - End-user APP: A web and mobile tool is required for platform users to register and rent properties. This platform should allow:
-- List ads by geolocation and user reviews
-- View ads, including their schedules and estimated rates
-- Offer properties based on the schedule and proposal
-- Rent the property and make payments to the platform
-- Evaluate the property
-- Open disputes with owners
-- Chat with the owner to discuss potential rentals
+    - List ads by geolocation and user reviews
+    - View ads, including their schedules and estimated rates
+    - Offer properties based on the schedule and proposal
+    - Rent the property and make payments to the platform
+    - Evaluate the property
+    - Open disputes with owners
+    - Chat with the owner to discuss potential rentals
 
 - Since we are dealing with APP users, there should also be a way to notify them, whether by push, email, or SMS
 
